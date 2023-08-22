@@ -1,0 +1,7 @@
+// save this file as .bat and run as admin
+// change the destination of the location where the file will be saved
+
+
+@echo off
+powercfg /batteryreport /output "E:\Desktop\batteryhealth.html"
+pause
